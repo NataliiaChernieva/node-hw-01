@@ -37,6 +37,3 @@ async function invokeAction({ action, id, name, email, phone }) {
 }
 
 invokeAction(argv);
-// invokeAction('get', 1).then((data)=>console.log(data))
-
-// https://prnt.sc/1ths6gl
