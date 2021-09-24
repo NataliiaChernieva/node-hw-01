@@ -1,16 +1,14 @@
-import fs from 'fs/promises';
-import path from 'path';
+const getAllContacts = require("./getAllContacts");
+const getContactById = require("./getContactById");
+const removeContact = require("./removeContact");
+const addContact = require("./addContact");
 
-const contactsPath = fs.readFile(path:'./db/contacts.json')
-
-
-
-
-
-
-
-
-
+module.exports = {
+    getAllContacts,
+    getContactById,
+    removeContact,
+    addContact
+}
 
 
 
@@ -18,6 +16,18 @@ const contactsPath = fs.readFile(path:'./db/contacts.json')
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+   
 
 
 
